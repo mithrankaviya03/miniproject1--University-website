@@ -1,0 +1,147 @@
+<html>
+    <head>
+
+        <style>
+            *{
+                font-family: 'Nunito', sans-serif;
+                margin:0; padding:0;
+                box-sizing: border-box;
+                text-transform: capitalize; 
+                outline: none; border:none;
+                text-decoration: none; 
+                transition: all .2s linear;
+                }
+                .contact .row{
+            display: flex;
+            flex-wrap: wrap;
+            gap:1.5rem;
+            align-items: center;
+            }
+            html{
+            font-size: 62.5%;                                                                      
+            overflow-x: hidden;
+            scroll-padding-left: 6rem;
+            scroll-behavior: auto;
+            }
+            section{
+            padding:2rem 9%;
+            }
+
+            .heading{
+            text-align: center;
+            padding:2.5rem 0
+            }
+
+            .heading span{
+            font-size: 3.5rem;
+            background:skyblue;
+            color:black;
+            border-radius: .5rem;
+            padding:.2rem 1rem;
+            }
+
+            .heading span.space{
+            background:none;
+            }
+
+            .btn{
+            display: inline-block;
+            margin-top: 1rem;
+            background:red;
+            color:#fff;
+            padding:.8rem 3rem;
+            border:.2rem solid red;
+            cursor: pointer;
+            font-size: 1.7rem;
+            }
+
+            .btn:hover{
+            background:rgba(255, 165, 0,.2);
+            color:green;
+            }
+            .contact .row .image{
+            flex:1 1 40rem;
+            }
+
+            .contact.row .image img{
+            width:100%;
+            }
+
+            .contact .row form{
+            flex:1 1 40rem;
+            padding:2rem;
+            box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+            border-radius: .5rem;
+            }
+
+            .contact.row form .inputBox{
+            padding:.5rem 0;
+            }
+
+            .contact.row form .inputBox input{
+            width:100%;
+            padding:1rem;
+            border:.1rem solid rgba(0,0,0,.1);
+            font-size: 1.7rem;
+            color:#333;
+            text-transform: none;
+            }
+
+            .contact .row form .inputBox h3{
+            font-size: 2rem;
+            padding:1rem 0;
+            color:#666;
+            }
+        </style>
+    </head>
+<body>
+<section class="contact" >
+
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>N</span>
+        <span>T</span>
+        <SPAN>A</SPAN>
+        <span>C</span>
+        <span>T</span>
+        <span class="space"></span>
+        <span>U</span>
+        <span>S</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact.jfif" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Name</h3>
+                <input type="text" placeholder="name" required>
+            </div>
+            <div class="inputBox">
+                <h3>Mobile Number</h3>
+                <input type="number" placeholder="number" required>
+            </div>
+            <div class="inputBox">
+                <h3>Email Id</h3>
+                <input type="text"id="email" placeholder="email id" required>
+                
+                
+            </div>
+            
+            <a href="index.html"><input type="submit" class="btn" value="Submit"></a>
+            <a href="index.html"><input type="button" class="btn" value="Cancel"></a>
+        </form>
+
+    </div>
+
+</section>
+            
+
+            
+
+</body>
+</html>

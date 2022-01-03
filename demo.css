@@ -1,0 +1,364 @@
+display:flex;
+padding: 0.0% 0.0%;
+justify-content: space-between;
+align-items: center;
+
+
+/*-------review-------/
+
+<style>
+            *{
+                font-family: 'Nunito', sans-serif;
+                margin:0; padding:0;
+                box-sizing: border-box;
+                text-transform: capitalize; 
+                outline: none; border:none;
+                text-decoration: none; 
+                transition: all .2s linear;
+                }
+                html{
+                font-size: 62.5%;                                                                      
+                overflow-x: hidden;
+                scroll-padding-left: 4rem;
+                scroll-behavior: auto;
+                }
+                section{
+                padding:2rem 9%;
+                }
+
+                .heading{
+                text-align: center;
+                padding:2.5rem 0
+                }
+
+                .heading span{
+                font-size: 3.5rem;
+                background-color: skyblue;
+                color:black;
+                border-radius: .10rem;
+                padding:.2rem 1rem;
+                }
+                .review .review-slider{
+                padding-bottom: 2rem;
+                }
+
+                .review .box{
+                padding:2rem;
+                text-align: center;
+                box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+                border-radius: .5rem;
+                }
+
+                .review .box img{
+                height:20rem;
+                width:20rem;
+                border-radius: 100%;
+                object-fit: cover;
+                margin-bottom: 1rem;
+                }
+
+                .review .box h3{
+                color:#333;
+                font-size: 2.5rem;
+                }
+
+                .review .box p{
+                color:#666;
+                font-size: 1.5rem;
+                padding:1rem 0;
+                }
+
+                .review .box .stars i{
+                color:orange;
+                font-size: 1.7rem;
+                }
+        </style>
+
+
+
+
+
+        */-----------------home---------------*/
+        <!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale-1.0">
+    <title>My University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="index.html"><img src ="images/logo.png"></a>
+
+        
+        <div class="nav-links">
+
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="review.html">REVIEW</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+        </div>
+     </nav>
+
+
+     <!----------demo------>
+     <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+       <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+<!-------end     -->
+
+
+
+
+     <div class="text-box">
+         <h1> My University</h1><br>
+         <a href="" class="hero-btn">Visit Us To Know More</a>
+   </div>
+     </section>
+
+         <!------Course------>
+         <section class="course">
+             <h1>Courses We Offer</h1>
+             <p>Learn From a Variety of IT Domains Fit For <br>
+                All Learning Profiles at ISACA Conference Asia.<br>
+                Come to Bahrain for a Safe, Traditional Conference Experience ,<br>
+                Connect with Us Online.<br><br> </p>
+            
+             <div class="row">
+                 <div class="course-col">
+                     <h3>Engineering</h3>
+                     <p> Engineering is a stream of education that involves <br>
+                        The application ofScience, Technology, and Mathematics to innovate, <br>
+                        design, develop and maintain machines,Structures, software, hardware, <br>
+                        and systems & processes. This field offers a range of career opportunities <br>
+                        across all industries, making it one of the most sought-after courses 
+                        pursued by students after Class 12, especially those from <br>
+                        The Science stream.</p>
+                     </div>
+                     <div class="course-col">
+                        <h3>Under Graduate</h3>
+                        <p>UG courses (Session 2021-22) (BA, BSC, BCOM, BMS., MSC BIOTECH (INTEGRATED)<br> 
+                             MSC MULTIMEDIA (INTEGRATED)<br> The details will be uploaded soon<br>. 
+                             PG Course (Session 2021-23) M.Com / M.Sc. [Comp. Sc., Phy., Mic., Bio., Eco.] /<br>
+                              M.A [Eng, Pol. Sc., Sociology] / (M.A. Bengali- Raghabpur Campus) <br>
+                             The details will be uploaded soon. B.Ed. Course (Session 2021-23) <br>
+                             The details will be uploaded soon. COP and DCP Programmes .  </p>
+                        </div>
+                        <div class="course-col">
+                            <h3>Post Graduate</h3>
+                            <p>I had a career gap of 4 years which made it impossible to crack interviews. <br>
+                                Great Learning gave me a earning atmosphere that was friendly and made it easy to clear doubts.<br>
+                                 They also offered me 10 interviews with different companies like Credence, Prodapt, etc,<br>
+                                  which helped me get a well-paid job and a good role. <br>
+                                  I have gained so much confidence in my journey with GL.</p>
+                            </div>
+                            
+                                </div>
+                               </div>
+                             </section>
+        <!-------Campus---->
+        <section class="campus">
+            <h1>OurCampus</h1>
+            <p>My college campus is the place where I spend most of my day times.<br> 
+                Whenever we get leisure time in the college period, we hang out on the campus. <br>
+                There is a big college canteen where we get every type of food. <br>T
+                he entire campus has around ten buildings. Each building is having own department. <br>T
+                here is a friendly environment in the campus and anyone can go to any building,<br> 
+                there is not any restriction. This is a very good and amazing place to spend time. <br><br></p>
+            
+        </section>
+
+        <!--------footer----->
+        <section class="footer">
+            <h4>About Us </h4>
+            <p>Use Our Platform To Search Read And Write Our Studentes Reviews And Apply A Course Ater Enjoing Your career</p>
+              <div class="icons">
+                <i class="fa fa-twitter"></i>
+              </div>
+              <p>Created By My University</p>
+
+        </section>
+
+        
+
+       
+
+
+         
+
+
+
+
+/*----------------contact-----------------/*
+
+
+
+
+
+html>
+    <head>
+        <style>
+            *{
+                font-family: 'Nunito', sans-serif;
+                margin:0; padding:0;
+                box-sizing: border-box;
+                text-transform: capitalize; 
+                outline: none; border:none;
+                text-decoration: none; 
+                transition: all .2s linear;
+                }
+                .contact .row{
+            display: flex;
+            flex-wrap: wrap;
+            gap:1.5rem;
+            align-items: center;
+            }
+            html{
+            font-size: 62.5%;                                                                      
+            overflow-x: hidden;
+            scroll-padding-left: 6rem;
+            scroll-behavior: auto;
+            }
+            section{
+            padding:2rem 9%;
+            }
+
+            .heading{
+            text-align: center;
+            padding:2.5rem 0
+            }
+
+            .heading span{
+            font-size: 3.5rem;
+            background:skyblue;
+            color:black;
+            border-radius: .5rem;
+            padding:.2rem 1rem;
+            }
+
+            .heading span.space{
+            background:none;
+            }
+
+            .btn{
+            display: inline-block;
+            margin-top: 1rem;
+            background:red;
+            color:#fff;
+            padding:.8rem 3rem;
+            border:.2rem solid red;
+            cursor: pointer;
+            font-size: 1.7rem;
+            }
+
+            .btn:hover{
+            background:rgba(255, 165, 0,.2);
+            color:green;
+            }
+            .contact .row .image{
+            flex:1 1 40rem;
+            }
+
+            .contact.row .image img{
+            width:100%;
+            }
+
+            .contact .row form{
+            flex:1 1 40rem;
+            padding:2rem;
+            box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+            border-radius: .5rem;
+            }
+
+            .contact.row form .inputBox{
+            padding:.5rem 0;
+            }
+
+            .contact.row form .inputBox input{
+            width:100%;
+            padding:1rem;
+            border:.1rem solid rgba(0,0,0,.1);
+            font-size: 1.7rem;
+            color:#333;
+            text-transform: none;
+            }
+
+            .contact .row form .inputBox h3{
+            font-size: 2rem;
+            padding:1rem 0;
+            color:#666;
+            }
+        </style>
+    </head>
+<body>
+<section class="contact" >
+
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>N</span>
+        <span>T</span>
+        <SPAN>A</SPAN>
+        <span>C</span>
+        <span>T</span>
+        <span class="space"></span>
+        <span>U</span>
+        <span>S</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact.jfif" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Name</h3>
+                <input type="text" placeholder="name" required>
+            </div>
+            <div class="inputBox">
+                <h3>Mobile Number</h3>
+                <input type="number" placeholder="number" required>
+            </div>
+            <div class="inputBox">
+                <h3>Email Id</h3>
+                <input type="text" placeholder="email id" required>
+                
+            </div>
+            
+            <input type="submit" class="btn" value="Submit">
+            <a href="index.html"><input type="button" class="btn" value="cancel"></a>
+        </form>
+
+    </div>
+
+</section>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+    Host : "smtp.yourisp.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+    }
+</script>
+</html>
